@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
  * 登录管理类
  */
 public class LogInMgr {
+	
 
 	/**
 	 * 使用账号、密码登录，返回是否登陆成功
@@ -27,6 +28,9 @@ public class LogInMgr {
 	 * @throws InterruptedException
 	 */
 
+	public void test() {
+		
+	}
 	public static boolean logInByPwd(WebDriver driver, String phoneNumber, String password, String successName) {
 		boolean flag = false;
 		try {
