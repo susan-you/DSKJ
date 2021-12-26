@@ -7,19 +7,19 @@ import org.openqa.selenium.WebElement;
 
 
 /**
- * ¶¨Î»ÎÒµÄ-ÉèÖÃÒ³ÔªËØÀà
+ * å®šä½æˆ‘çš„-è®¾ç½®é¡µå…ƒç´ ç±»22222222222222222
  * @author yrx
  *
  */
 public class ConfigPageObject {
 	/**
-	 * »ñÈ¡¡°ÍË³öµÇÂ½¡±°´Å¥
-	 * @param driver ´«ÈëWebDriver
-	 * @return ·µ»Ø¡°ÍË³öµÇÂ½¡±°´Å¥
+	 * è·å–â€œé€€å‡ºç™»é™†â€æŒ‰é’®
+	 * @param driver ä¼ å…¥WebDriver
+	 * @return è¿”å›â€œé€€å‡ºç™»é™†â€æŒ‰é’®
 	 */
 	public static WebElement btnLogOut( WebDriver driver)
 	{
-		return driver.findElement(By.xpath("//android.widget.TextView[@text='ÍË³öµÇÂ¼']"));
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='é€€å‡ºç™»å½•']"));
 	}
 	
 
